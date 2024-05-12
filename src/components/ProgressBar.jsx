@@ -8,7 +8,7 @@ const ProgressBar=()=>{
     useEffect(()=>{
       setInterval(()=>{
         setValue((num)=>num+0.1)
-      },20)
+      },15)
     },[]);
   
     useEffect(()=>{
