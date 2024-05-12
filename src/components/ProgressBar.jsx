@@ -26,7 +26,7 @@ const ProgressBar=()=>{
               </div>
           </div>
   
-          <p className=' mt-2 text-2xl font-mono'>{percentage>=100? "Completed" : "Loading..."}</p>
+          <p className=' mt-2 text-2xl font-mono'>{percentage>=100? "Completed!" : "Loading..."}</p>
   
         </div>
     )
